@@ -1,6 +1,6 @@
 {
   "name": "pj-global-loader",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "dist/index.js",
   "type": "module",
@@ -24,5 +24,9 @@
     "@mui/material": "^6.1.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prince5820/pj-global-loader-package/tree/prince"
   }
 }
