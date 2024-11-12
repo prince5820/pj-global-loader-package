@@ -13,7 +13,6 @@ Here is the one-stop solution to add a global loader into your project to seamle
 - [Example](#example)
 - [Author](#authors)
 
-
 ## Installation
 
 Install pj-global-loader with npm
@@ -26,14 +25,14 @@ Install pj-global-loader with npm
 
 - [Demo](https://stackblitz.com/edit/vitejs-vite-edctp1?file=src%2FApp.tsx&terminal=dev)
 
-
 ## Usage
 
 - To add pj-global-loader into your project, you can import as it follows:
 
 ```bash
-import {Loader} from 'pj-global-loader';
+import { Loader } from 'pj-global-loader';
 ```
+
 ## API Reference
 
 - Use pj-global-loader as below:
@@ -49,11 +48,10 @@ import {Loader} from 'pj-global-loader';
 | `color`      | `string` | - Pass `color` props to change the color of your loader. The `color` value must be a string. |
 | `size`      | `number` | - Pass `size` props to give custom size as you want. The `size` value must be a number. |
 
-
 ## Example
 
 ```javascript
-import Loader from 'pj-global-loader';
+import { Loader } from 'pj-global-loader';
 import axios from 'axios';
 
 function App() {
@@ -62,6 +60,7 @@ function App() {
 
 export default App;
 ```
+
 ## Authors
 
 - Prince Javiya
