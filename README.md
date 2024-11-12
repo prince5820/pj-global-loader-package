@@ -4,6 +4,16 @@
 Here is the one-stop solution to add a global loader into your project to seamlessly run your project with all Axios requests.
 
 
+## Table of Contents
+
+- [Installation](#installation)
+- [Demo](#demo)
+- [Usage](#usage)
+- [API Reference](#api-reference)
+- [Example](#example)
+- [Author](#authors)
+
+
 ## Installation
 
 Install pj-global-loader with npm
@@ -12,33 +22,47 @@ Install pj-global-loader with npm
   npm install pj-global-loader
 ```
     
-## Screenshots
+## Demo
 
-- Here is the example how to use pj-global-loader into your project.
-
-
-![App Screenshot](https://res.cloudinary.com/durs29sca/image/upload/v1731323168/t1mpfqiyv2g8fo2cjnd6.png)
+- [Demo](https://stackblitz.com/edit/vitejs-vite-edctp1?file=src%2FApp.tsx&terminal=dev)
 
 
-## Usage/Examples
+## Usage
+
+- To add pj-global-loader into your project, you can import as it follows:
+
+```bash
+import {Loader} from 'pj-global-loader';
+```
+## API Reference
+
+- Use pj-global-loader as below:
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `axios` | `axios` | **Required**. must pass axios as props |
+
+#### Custom
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `color`      | `string` | - Pass `color` props to change the color of your loader. The `color` value must be a string. |
+| `size`      | `number` | - Pass `size` props to give custom size as you want. The `size` value must be a number. |
+
+
+## Example
 
 ```javascript
 import Loader from 'pj-global-loader';
 import axios from 'axios';
 
 function App() {
-  return <Loader axios={axios} />
+  return <Loader axios={axios} color="green" size={40} />
 }
 
 export default App;
 ```
-
-
 ## Authors
 
 - Prince Javiya
 
-
-## Repository
-
-🔗 https://github.com/prince5820/pj-global-loader-package/tree/prince
