@@ -23,7 +23,7 @@ Install pj-global-loader with npm
     
 ## Demo
 
-- [Demo](https://vitejsviteedctp1-vrsc--5173--f565b097.local.webcontainer.io/)
+- [Demo](https://stackblitz.com/edit/vitejs-vite-edctp1?file=src%2FApp.tsx&terminal=dev)
 
 ## Usage
 
