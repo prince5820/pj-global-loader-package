@@ -1,6 +1,6 @@
 {
   "name": "pj-global-loader",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "",
   "main": "dist/index.js",
   "type": "module",
@@ -8,7 +8,16 @@
   "scripts": {
     "build": "npx rollup -c"
   },
-  "keywords": [],
+  "keywords": [
+    "axios-global-loader",
+    "mui-axios-loader",
+    "global-ui-loader",
+    "axios-ui-loader",
+    "global-request-loader",
+    "pj-global-loader",
+    "global-loader",
+    "react-loader"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
